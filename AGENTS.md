@@ -12,6 +12,13 @@ Pagina singola (`index.html`, no build, no dipendenze) raggiunta dagli striscion
 GitHub Pages (branch `main`, root della repo). Nessuna workflow: basta servire la root.
 Anteprima locale: `python3 -m http.server 8099`.
 
+## Repo
+
+- `Maverick87Shaka/comitatogambarone` (pubblica, branch `main`).
+- URL pubblico atteso: https://maverick87shaka.github.io/comitatogambarone/
+  (da abilitare in Settings -> Pages: Deploy from a branch, `main` / `(root)`).
+- Logo: fornito dal comitato, JPEG ~357x350 su fondo bianco, rosso dominante #ff4700.
+
 ## Note
 
 - Mobile-first: pensata per la scansione QR in verticale, target di tap >= 60px, dark mode automatica.
