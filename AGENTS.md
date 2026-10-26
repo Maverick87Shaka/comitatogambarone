@@ -5,7 +5,7 @@ Pagina singola (`index.html`, no build, no dipendenze) raggiunta dagli striscion
 - Contenuto: logo + nome comitato, location, slogan anti-ecomostro, CTA Facebook, CTA mailto per iscrizione.
 - Email comitato: comitatogambarone@yahoo.com
 - Pagina FB: https://www.facebook.com/profile.php?id=61591755391217
-- Logo: `assets/logo.jpg` (estratto dalla pagina Facebook).
+- Logo: `assets/logo.png` (fornito dal comitato, PNG con trasparenza, 357x350, rosso dominante #ff4700).
 
 ## Deploy
 
@@ -17,7 +17,7 @@ Anteprima locale: `python3 -m http.server 8099`.
 - `Maverick87Shaka/comitatogambarone` (pubblica, branch `main`).
 - URL pubblico atteso: https://maverick87shaka.github.io/comitatogambarone/
   (da abilitare in Settings -> Pages: Deploy from a branch, `main` / `(root)`).
-- Logo: fornito dal comitato, JPEG ~357x350 su fondo bianco, rosso dominante #ff4700.
+- Logo fornito dal comitato: PNG 357x350 con trasparenza (no fondo bianco).
 
 ## Note
 
