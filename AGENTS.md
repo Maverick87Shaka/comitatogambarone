@@ -21,5 +21,10 @@ Anteprima locale: `python3 -m http.server 8099`.
 
 ## Note
 
-- Mobile-first: pensata per la scansione QR in verticale, target di tap >= 60px, dark mode automatica.
+- Mobile-first: pensata per la scansione QR in verticale, dark mode automatica.
+- Vincolo accettato dal committente: tutta la pagina deve stare in UNA schermata su telefoni piccoli
+  (test di riferimento 360x570, OnePlus One). Compatto tramite breakpoint su max-ALTEZZA (700px, 560px),
+  non sulla larghezza. Misurare con iframe + bottom dell'ultimo elemento, non con scrollHeight
+  (gonfiato da min-height:100svh). Non ridurre i bottoni sotto ~50px: sono i tap target primari.
+- QR da stampare generati in `qr/` (ignorato da git): livello correzione H, testato con zxing-cpp.
 - Il token GitHub usato in questo workspace non puo creare repo ne gestire Pages (serve PAT con scopes `repo` + `admin:repo`/Pages).
