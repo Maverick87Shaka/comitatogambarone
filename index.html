@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Comitato Gambarone San Bovio</title>
+<meta name="description" content="Comitato Gambarone San Bovio: opposizione alla costruzione dell'ecomostro nel centro residenziale di San Bovio, Peschiera Borromeo. Seguici su Facebook e iscriviti al comitato.">
+<meta name="theme-color" content="#1d1408">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Comitato Gambarone San Bovio">
+<meta property="og:description" content="Opposizione alla costruzione dell'ecomostro nel centro residenziale di San Bovio.">
+<meta property="og:image" content="assets/logo.jpg">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="apple-touch-icon" href="assets/logo.jpg">
+<style>
+  :root {
+    --ink: #1d1408;
+    --ink-soft: #5c4a33;
+    --paper: #fff8ef;
+    --card: #ffffff;
+    --accent: #d9480f;
+    --accent-dark: #a8360a;
+    --amber: #f0a30a;
+    --line: #ecdcc4;
+    --radius: 18px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #fff6e9;
+      --ink-soft: #c9b79c;
+      --paper: #14100a;
+      --card: #1f1810;
+      --accent: #ff7a33;
+      --accent-dark: #ffa066;
+      --amber: #ffc44d;
+      --line: #362a1a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    min-height: 100svh;
+    padding: max(20px, env(safe-area-inset-top)) 18px max(20px, env(safe-area-inset-bottom));
+    display: flex;
+    justify-content: center;
+    background:
+      radial-gradient(120% 60% at 50% 0%, rgba(240, 163, 10, .22), transparent 70%),
+      var(--paper);
+    color: var(--ink);
+    font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { width: 100%; max-width: 460px; }
+  .logo {
+    display: block;
+    width: min(78%, 260px);
+    margin: 8px auto 18px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 10px;
+  }
+  h1 {
+    margin: 0 0 6px;
+    text-align: center;
+    font-size: clamp(26px, 8vw, 34px);
+    line-height: 1.15;
+    letter-spacing: -.02em;
+  }
+  .where {
+    margin: 0 0 20px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+  }
+  .lede {
+    margin: 0 0 24px;
+    padding: 14px 16px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--amber);
+    border-radius: var(--radius);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .actions { display: grid; gap: 12px; }
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 62px;
+    padding: 12px 18px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform .08s ease;
+  }
+  .btn:active { transform: scale(.985); }
+  .btn small { display: block; font-weight: 500; font-size: 14px; opacity: .85; }
+  .btn svg { flex: 0 0 auto; width: 26px; height: 26px; }
+  .btn-fb { background: #1877f2; color: #fff; }
+  .btn-mail { background: var(--accent); color: #fff; }
+  .btn-mail:visited { color: #fff; }
+  .mail-to {
+    margin: 18px 0 0;
+    text-align: center;
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+  .mail-to a { color: var(--accent); font-weight: 700; text-decoration: none; word-break: break-all; }
+  .mail-to a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 26px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    text-align: center;
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="assets/logo.jpg" alt="Logo del Comitato Gambarone San Bovio: NO DATA CENTER">
+  <h1>Comitato Gambarone<br>San Bovio</h1>
+  <p class="where">San Bovio &middot; Peschiera Borromeo</p>
+
+  <p class="lede">Ci opponiamo alla costruzione dell&rsquo;ecomostro nel centro residenziale di San Bovio.</p>
+
+  <div class="actions">
+    <a class="btn btn-fb" href="https://www.facebook.com/profile.php?id=61591755391217" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07c0 6.02 4.39 11.02 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.96h-1.51c-1.49 0-1.95.93-1.95 1.88v2.27h3.32l-.53 3.49h-2.79v8.44C19.61 23.09 24 18.09 24 12.07z"/></svg>
+      <span>Seguici su Facebook<small>Notizie, aggiornamenti e documenti</small></span>
+    </a>
+    <a class="btn btn-mail" href="mailto:comitatogambarone@yahoo.com?subject=Richiesta%20di%20iscrizione%20al%20Comitato%20Gambarone%20San%20Bovio&amp;body=Ciao%20Comitato%2C%0A%0Avorrei%20iscrivermi%20al%20Comitato%20Gambarone%20San%20Bovio.%0A%0ANome%20e%20cognome%3A%20%0AIndirizzo%20o%20zona%3A%20%0ATelefono%3A%20%0A%0AGrazie!">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 7 9 6 9-6"/></svg>
+      <span>Iscriviti al Comitato<small>Scrivici una email, ti rispondiamo noi</small></span>
+    </a>
+  </div>
+
+  <p class="mail-to">Oppure scrivi direttamente a<br>
+    <a href="mailto:comitatogambarone@yahoo.com">comitatogambarone@yahoo.com</a>
+  </p>
+
+  <footer>Hai letto il nostro striscione? Sei nel posto giusto. Grazie del sostegno.</footer>
+</main>
+</body>
+</html>
